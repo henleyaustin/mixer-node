@@ -1,0 +1,27 @@
+{
+    "name": "mixer-node",
+    "version": "1.0.0",
+    "main": "server.js",
+    "bin": "server.js",
+    "scripts": {
+        "pkg": "pkg ."
+    },
+    "pkg": {
+        "scripts": "server.js",
+        "targets": [
+            "node14-win-x64"
+        ],
+        "outputPath": "build"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "description": "",
+    "dependencies": {
+        "@types/node": "^22.5.0",
+        "cors": "^2.8.5",
+        "express": "^4.19.2",
+        "localtunnel": "^2.0.2",
+        "native-sound-mixer": "^3.4.5-win"
+    }
+}
