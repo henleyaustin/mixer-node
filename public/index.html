@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Audio Server</title>
+
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap"
+            rel="stylesheet"
+        />
+        <link rel="stylesheet" href="styles.css" />
+    </head>
+    <body>
+        <h1>You're In!</h1>
+        <p>Now that you're seeing this page, your server is live!</p>
+        <p>To start adjusting your levels, enter this address:</p>
+        <div class="server-url">
+            <p id="url" class="link"></p>
+            <button onclick="copyLink()">Copy</button>
+        </div>
+        <p>into the main page of this app:</p>
+        <a href="https://web-mixer.web.app/" target="_blank">Web Mixer App</a>
+
+        <div id="copyNotification" class="hidden">Copied!</div>
+
+        <script src="script.js"></script>
+    </body>
+</html>
